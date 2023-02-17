@@ -20,7 +20,7 @@ requests:
 
     payloads:
       redirect:
-        - '?evil.com/?p={{OriginalUrl}}'
+        - 'evil.com/?p={{OriginalUrl}}'
 
     stop-at-first-match: true
     matchers-condition: and
